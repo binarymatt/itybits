@@ -34,9 +34,16 @@ header h1{
 #footer {
   font-size: 10px; }
 
+#main{
+	padding: 10px 0px;
+}
 ul {
   margin: 0; }
 
 li {
   margin: 0;
-  list-style: none; }
+  list-style: none; 
+}
+ul.blog_list li span{
+	float: right;
+}

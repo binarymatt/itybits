@@ -1,4 +1,4 @@
-<%inherit file="site.mako" />
+<%inherit file="html5-base.mako" />
 <%include file="post.mako" args="post=post" />
 <div id="disqus_thread"></div>
 <script type="text/javascript">
