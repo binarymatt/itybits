@@ -37,6 +37,7 @@ header h1{
 #main{
 	padding: 10px 0px;
 }
+
 ul {
   margin: 0; }
 
@@ -46,4 +47,8 @@ li {
 }
 ul.blog_list li span{
 	float: right;
+}
+.post_prose p{
+    margin: 10px 0px;
+    padding: 2px;
 }
