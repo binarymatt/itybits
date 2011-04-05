@@ -1,7 +1,3 @@
-% if bf.config.blog.disqus.enabled:
-<a
-href="http://${bf.config.blog.disqus.name}.disqus.com/latest.rss">Comments</a>.
-% endif
 
 <div id='footer'>Copyright ${bf.config.blog.name} |
 RSS feeds for <a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Entries</a>
