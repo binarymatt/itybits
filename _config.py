@@ -46,3 +46,5 @@ blog.description = "A blog about stuff."
 
 ## blog_timezone -- the timezone that you normally write your blog posts from
 blog.timezone = "US/Central"
+blog.disqus.enabled = True
+blog.disqus.name = 'itybits'

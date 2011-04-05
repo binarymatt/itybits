@@ -8,8 +8,6 @@ database driven applications. Not that they are bad, it's just overkill for a si
 I probably won't post that often and I am comfortable using git to version my docs. Instead, I went 
 looking for a static site generator.
 
+After evaluating several, including Jekyll and Hyde, I decided on blogofile. 
+It's pretty simple, extendable, and python based, so yeah that's awesome.
 
-Because I had heard about Jekyll through the intertubes, it was the first application I took a look at.
-It was nice, but it's written in ruby and I prefer to stick with python, especially when I might get a hankerin' to look at the internals. Pointed out by the fine folks at github was hyde, a version of jekyll 
-in python that uses the django templating system. It seemed like a perfect fit. However, the more I dove into
-it the more it seemed like a framework with strong opinions about how I should layout the site. In all honesty, this was probably more an issue with me not spending enough time in the docs and not the framework itself.
