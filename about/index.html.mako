@@ -1,4 +1,3 @@
 <%inherit file="_templates/html5-base.mako" />
-This is a test
+<h1>Coming Soon!</h1>
 
-</ul>
