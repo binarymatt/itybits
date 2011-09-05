@@ -19,6 +19,8 @@
 #  If you're hosting a blogofile powered site as a subdirectory of a larger
 #  non-blogofile site, then you would set the site_url to the full URL
 #  including that subdirectory: "http://www.yoursite.com/path/to/blogofile-dir"
+import os
+environ = os.environ.get("BLOG_ENV","prod")
 site.url = "http://itybits.com"
 
 #### Blog Settings ####
@@ -46,5 +48,6 @@ blog.description = "A blog about stuff."
 
 ## blog_timezone -- the timezone that you normally write your blog posts from
 blog.timezone = "US/Central"
-blog.disqus.enabled = True
+blog.disqus.enabled = environ == "prod"
 blog.disqus.name = 'itybits'
+blog.clicky.enabled = environ == "prod"
