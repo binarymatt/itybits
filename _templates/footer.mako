@@ -1,5 +1,5 @@
 
-<div id='footer'>Copyright ${bf.config.blog.name} |
+<div id='footer'>Copyright matt george |
 RSS feeds for <a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Entries</a>
 </div>
 
