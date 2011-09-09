@@ -1,0 +1,21 @@
+---
+categories: Nashville, Tech
+date: 2011/09/09 08:30:00
+title: A Failure to Communicate
+---
+Yesterday I sent out tweet in reference to Barcamp Nashville 2011 that said, "My one struggle with #bcn11 is that I disagree with the description as an unconference and use of the BarCamp name"
+Much to my surprise, it got a lot more attention than I was expecting. Unfortunately, I didn't do a good job of explaining what I meant. This is my attempt to do so.
+
+First and foremost, I want all the volunteers and organizers of bcn11 to know that I think they are doing a great job and trying
+their best to put on a community driven event. Let me also say that I think Nashville needs what BCN11 is and has become. 
+
+So if I think Nashville needs what BCN is and I think the volunteers are doing a good job, what did I mean by my comment? It's all in the name. What we have in Nashville isn't a barcamp and never has been a barcamp. What we have in Nashville is a great mini-conference that brings together a whole bunch of different people and only helps the community. It might be pedantic, but using the name Barcamp bothers me. I think it can and does lead to confusion when people see information about what a barcamp is and then experience something different here in Nashville.
+
+TLDR version:
+
+- Volunteers and organizers do a great job
+- BCN is a good event for Nashville
+- It's not a barcamp so why call it one?
+
+reference:
+[barcamp rules](http://barcamp.org/w/page/405173/TheRulesOfBarCamp)
