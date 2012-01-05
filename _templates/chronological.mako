@@ -1,10 +1,14 @@
 <%inherit file="html5-base.mako" />
 % for post in posts:
+<article>
   <%include file="post.mako" args="post=post" />
+    <div class='well'>
 % if bf.config.blog.disqus.enabled:
-  <div class="after_post"><a href="${post.permalink}#disqus_thread">Read and Post Comments</a></div>
+<a href="${post.permalink}#disqus_thread" class='btn'>View Comments</a>
 % endif
-  <hr class="interblog" />
+    </div>
+</article>
+
 % endfor
 % if prev_link:
  <a href="${prev_link}">« Previous Page</a>

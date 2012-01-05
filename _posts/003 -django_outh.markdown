@@ -8,7 +8,7 @@ I thought I would share some tips getting it to work.
 
 The first step after following the installation instructions is creating the OAUTH_ACCESS_SETTINGS entry in settings.py:
 
-$$code(lang=python, style=native)
+$$code(lang=python, style=default)
 OAUTH_ACCESS_SETTINGS = {
     'twitter':{
         'keys': {
@@ -44,7 +44,7 @@ specific and will be different for each app you create. The second part are the 
 and the oauth provider. The endpoint section also includes the important callback, which is the code that your application provides
 for local authentication and account creation. Let's head over to the callback section.
 
-$$code(lang=python, style=native)
+$$code(lang=python, style=default)
 from oauth_access.callback import AuthenticationCallback
 class BasicCallback(AuthenticationCallback):
     def handle_no_user(self, request, access, token, user_data):

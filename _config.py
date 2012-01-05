@@ -50,4 +50,4 @@ blog.description = "A blog about stuff."
 blog.timezone = "US/Central"
 blog.disqus.enabled = environ == "prod"
 blog.disqus.name = 'itybits'
-blog.clicky.enabled = environ == "prod"
+blog.clicky.enabled = False

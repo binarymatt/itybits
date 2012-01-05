@@ -7,13 +7,9 @@
     ${self.head()}
   </head>
   <body>
-    <div id="content">
-      ${self.header()}
-      <div id="main_block">
-        <div id="prose_block">
+    ${self.header()}
+    <div id="content" class='container'>
           ${next.body()}
-        </div><!-- End Prose Block -->
-      </div><!-- End Main Block -->
       <div id="footer">
         ${self.footer()}
       </div> <!-- End Footer -->
